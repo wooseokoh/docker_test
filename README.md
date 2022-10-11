@@ -136,3 +136,14 @@ $ docker run -it --rm --device-write-bps /dev/vda:10mb ubuntu:1.4 /bin/bash
 $ docker run -it --rm --device-write-ipos /dev/vda:10 ubuntu:1.4 /bin/bash
 $ docker run -it --rm --device-write-ipos /dev/vda:100 ubuntu:1.4 /bin/bash
 ```
+
+### Docker Tip
+
+```
+jdk version 11 이상 사용 권장
+- 컨테이너 리소스 할당 불가
+- 메모리 리소스 적용 불가
+
+k6
+- 부하테스트 가능
+```
